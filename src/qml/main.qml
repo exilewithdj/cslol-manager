@@ -55,6 +55,11 @@ ApplicationWindow {
         cslolDialogUserError.open()
     }
 
+    function showSuccess(message) {
+        cslolDialogSuccess.text = message
+        cslolDialogSuccess.open()
+    }
+
     function checkGamePath() {
         let detected = settings.detectGamePath ? CSLOLUtils.detectGamePath() : "";
         if (detected === "" && cslolTools.leaguePath === "") {
@@ -310,6 +315,10 @@ ApplicationWindow {
         id: cslolDialogUserError
     }
 
+    CSLOLDialogSuccess {
+        id: cslolDialogSuccess
+    }
+
     CSLOLDialogUpdate {
         id: cslolDialogUpdate
         enableUpdates: settings.enableUpdates
@@ -337,7 +346,12 @@ ApplicationWindow {
         onInstalledMod: function(fileName, infoData) {
             cslolModsView.addMod(fileName, infoData, false)
         }
-        onProfileSaved: {}
+        onProfileSaved: function(name, mods) {
+            console.log("Profile saved:", name)
+            console.log("Mods:", JSON.stringify(mods))
+            window.showSuccess("配置 '" + name + "' 保存成功！")
+        }   
+
         onProfileLoaded: function(name, profileMods) {
             cslolModsView.loadProfile(profileMods)
         }

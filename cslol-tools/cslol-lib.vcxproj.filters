@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\fs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\hash\dict.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\hash\fnv1a32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\hash\xxh64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\io\buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\io\bytes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\io\file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\io\sys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\patcher\patcher_dummy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\patcher\patcher_macos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\patcher\patcher_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\patcher\utility\process_macos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\utility\cli.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\utility\magic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\utility\zip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\archive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\mounted.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\index.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\toc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\error.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\fs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\log.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\hash\dict.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\hash\fnv1a32.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\hash\xxh64.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\io\buffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\io\bytes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\io\file.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\io\sys.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\patcher\patcher.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\patcher\utility\delay.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\patcher\utility\macho.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\patcher\utility\process.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\utility\cli.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\utility\magic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\utility\zip.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\archive.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\mounted.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\entry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\index.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\toc.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\src\GIT\cslol-manager\cslol-tools\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{68146B92-BC3E-3943-AD44-7EE5C158B88D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{10CBC01B-775F-3CBD-A695-44205761A2A4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

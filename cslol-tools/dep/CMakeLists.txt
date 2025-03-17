@@ -4,49 +4,44 @@ include(FetchContent)
 
 cmake_policy(SET CMP0169 OLD)
 
-FetchContent_Declare(
-    xxhash
-    GIT_REPOSITORY https://github.com/Cyan4973/xxHash.git
-    GIT_TAG        35b0373c697b5f160d3db26b1cbb45a0d5ba788c # v0.8.1
-    CONFIGURE_COMMAND ""
-    BUILD_COMMAND ""
+# xxhash: 本地路径
+set(XXHASH_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/xxhash")
+if(NOT EXISTS "${XXHASH_SOURCE_DIR}/xxhash.c")
+    message(FATAL_ERROR "xxhash source not found at ${XXHASH_SOURCE_DIR}")
+endif()
+add_library(xxhash STATIC ${XXHASH_SOURCE_DIR}/xxhash.c)
+target_include_directories(xxhash PUBLIC ${XXHASH_SOURCE_DIR})
+target_compile_definitions(xxhash INTERFACE -DXXH_STATIC_LINKING_ONLY)
+target_compile_definitions(xxhash PRIVATE -DXXH_CPU_LITTLE_ENDIAN)
+
+# zstd: 本地路径
+set(ZSTD_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/zstd")
+if(NOT EXISTS "${ZSTD_SOURCE_DIR}/lib")
+    message(FATAL_ERROR "zstd source not found at ${ZSTD_SOURCE_DIR}")
+endif()
+file(GLOB zstd_SRCS
+    ${ZSTD_SOURCE_DIR}/lib/common/*.c
+    ${ZSTD_SOURCE_DIR}/lib/compress/*.c
+    ${ZSTD_SOURCE_DIR}/lib/decompress/*.c
 )
-FetchContent_GetProperties(xxhash)
-if(NOT xxhash_POPULATED)
-    FetchContent_Populate(xxhash)
-    add_library(xxhash STATIC ${xxhash_SOURCE_DIR}/xxhash.c)
-    target_include_directories(xxhash PUBLIC ${xxhash_SOURCE_DIR})
-    target_compile_definitions(xxhash INTERFACE -DXXH_STATIC_LINKING_ONLY)
-    target_compile_definitions(xxhash PRIVATE -DXXH_CPU_LITTLE_ENDIAN)
+add_library(zstd STATIC ${zstd_SRCS})
+target_include_directories(zstd PUBLIC ${ZSTD_SOURCE_DIR}/lib)
+target_include_directories(zstd PRIVATE ${ZSTD_SOURCE_DIR}/lib/common)
+target_compile_definitions(zstd INTERFACE -DZSTD_STATIC_LINKING_ONLY)
+target_compile_definitions(zstd PRIVATE -DZSTD_DISABLE_ASM)
+if(MSVC)
+    target_compile_options(zstd PRIVATE /wd4267)
 endif()
 
-
-FetchContent_Declare(
-    zstd
-    GIT_REPOSITORY https://github.com/facebook/zstd.git
-    GIT_TAG        63779c798237346c2b245c546c40b72a5a5913fe # v1.5.5
-    CONFIGURE_COMMAND ""
-    BUILD_COMMAND ""
-)
-FetchContent_GetProperties(zstd)
-if(NOT zstd_POPULATED)
-    FetchContent_Populate(zstd)
-    file(GLOB zstd_SRCS
-        ${zstd_SOURCE_DIR}/lib/common/*.c
-        ${zstd_SOURCE_DIR}/lib/compress/*.c
-        ${zstd_SOURCE_DIR}/lib/decompress/*.c
-    )
-    add_library(zstd STATIC ${zstd_SRCS})
-    target_include_directories(zstd PUBLIC ${zstd_SOURCE_DIR}/lib)
-    target_include_directories(zstd PRIVATE ${zstd_SOURCE_DIR}/lib/common)
-    target_compile_definitions(zstd INTERFACE -DZSTD_STATIC_LINKING_ONLY)
-    target_compile_definitions(zstd PRIVATE -DZSTD_DISABLE_ASM)
-    if(MSVC)
-        target_compile_options(zstd PRIVATE /wd4267)
-    endif()
+# miniz: 本地路径
+set(MINIZ_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/miniz")
+if(NOT EXISTS "${MINIZ_SOURCE_DIR}")
+    message(FATAL_ERROR "miniz source not found at ${MINIZ_SOURCE_DIR}")
 endif()
+add_subdirectory(${MINIZ_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR}/miniz)
+target_compile_definitions(miniz PRIVATE -DMINIZ_DISABLE_ZIP_READER_CRC32_CHECKS=1)
 
-
+# 以下保持在线拉取（可根据需要改为本地）
 FetchContent_Declare(
     libdeflate
     GIT_REPOSITORY https://github.com/ebiggers/libdeflate.git
@@ -67,20 +62,6 @@ if(NOT libdeflate_POPULATED)
     target_include_directories(libdeflate PRIVATE ${libdeflate_SOURCE_DIR}/lib)
 endif()
 
-
-FetchContent_Declare(
-    miniz
-    GIT_REPOSITORY https://github.com/richgel999/miniz.git
-    GIT_TAG        d9d197c92606da7be59cee2be2fbc6830b73c480 # 3.0.2
-)
-FetchContent_GetProperties(miniz)
-if(NOT miniz_POPULATED)
-    FetchContent_Populate(miniz)
-    add_subdirectory(${miniz_SOURCE_DIR} ${miniz_BINARY_DIR})
-    target_compile_definitions(miniz PRIVATE -DMINIZ_DISABLE_ZIP_READER_CRC32_CHECKS=1)
-endif()
-
-
 FetchContent_Declare(
     fmt
     GIT_REPOSITORY https://github.com/fmtlib/fmt.git
@@ -95,7 +76,6 @@ if(NOT fmt_POPULATED)
     target_include_directories(fmt PUBLIC ${fmt_SOURCE_DIR}/include)
     target_compile_definitions(fmt PRIVATE -DFMT_UNICODE=1)
 endif()
-
 
 FetchContent_Declare(
     fmtlog

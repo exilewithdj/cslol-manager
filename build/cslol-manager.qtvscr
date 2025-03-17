@@ -1,0 +1,572 @@
+<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" FontFamily="Segoe UI" FontSize="12">
+  <FlowDocument.Tag><![CDATA[{
+  "timestamp": "2025-03-17 19:45:21",
+  "files": {
+    "E:\\src\\GIT\\cslol-manager\\build\\cslol-manager.vcxproj": {
+      "before": "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",
+      "after": "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"
+    },
+    "E:\\src\\GIT\\cslol-manager\\build\\cslol-manager.vcxproj.filters": {
+      "before": "zZddb5swFIZ7PW3/AXEPhPBdkVYNJF2ktJuatpsmpIiaQ+INMMGmqjbtv88Q1iRNl6FWSorEBQbO+3B8/Ppw+v7oyD19SBPhHgqKSdYTVbkjCpAhEuFs1hNLFku2eHry4Z37uSDfATHhmpCE3j4+b1Uv8BAZ7YlzxvJjRaFoDmlI5RSjglASMxmRVIngHhKSQ6Gk9K7ESaR0Ox1N5KEFwR0xSM8LUub1JR/wEo+kOU5AGGUoKSPoiYPjgBYoOB9dB4gmJJHSMAtnUAR1tM2xaVgyMoMsSAmiUy7PQ4WMf+HUh7tyJqM8XyoL/HCHOGFQnExIWSAQ+BVQV2kGKzz+iPII9BLCijsNcbZv3WVmvMn407iZ4X0TVF9e69dlc1j1UZonByO4YTih+1bftTJux/7k4tv46+V5sCjQdJHuPTe76LbW7RUkEFJ4SxncYrzA2QT/BI76pjE53xfM5twJR1lMXo3qKpvu/ZyZNybewsyfGMZ826Y/QhhB8U+bbqRWNv1S7douDqO/NIvDaDdbu/w69RZFUVJG0n7VCbQoi2Ynuwh/QL0/B7Zl6ciMHFBNLQZTD52u0e3exR0w7TjW0bqpyUWZwHYheVU04Yrfe2a7X9E9VtJqqAVwHXyMKaMye2CioNRh/p+WS5K16XmqZcItuzplbt/t418Brduc9u1VJVUADQokc6EmGy27pidqLXOwbL1WSV6bqDX9mwwvShhFkDEcY96//fKcbl+3fVsynaEuabYxkBxVHUq2YaqqY1oDVRv+dpWtF//2eJst31OKdd/ZjTH0bdsxHMnyz2xJ66iqdKb5fY6hDQzPN+z+0Hg5xnqXuhPD8FTd80xT8nXNkDRD70hnumVJXVvz9b7RN/Wh2hJjs2xdpfkX4NP5Bw==",
+      "after": "zZdvb5pQFMb7etm+A+E9IPK/wTYVtDOx3VLbbllIDL0c9G7ARe6labbsu++CrGrtHGkTrYkvuMJ5fhwOz33svT86ck8f0kS4h4JikvVEVe6IAmSIRDib9cSSxZItnp58eOd+Lsh3QEy4JiSht4/nW9UFvERGe+KcsfxYUSiaQxpSOcWoIJTETEYkVSK4h4TkUCgpvStxEindTkcTeWlBcEcM0vOClHl9yBe8xCNpjhMQRhlKygh64uA4oAUKzkfXAaIJSaQ0zMIZFEFdbXNtGpaMzCALUoLolMvzUiHjdzj14a6cySjPl8oC/7hDnDAoTiakLBAI/AioqzSLFR4/RXkEeglhxZ2GONu37rIz3mT8adw84X0TVHde69djc1j1UZonByO4YTih+1bf9Wbcjv3Jxbfx18vzYFGg6SLde2920W29t1eQQEjhLXVwi/ECZxP8Ezjqm8bkfF8wm3MnHGUxeTWqq2y693Nm3ph4CzN/YhjzbZv+CGEExT9tupFa2fRLtWu7OIz+0iwOo91s7fLr1FsMRUkZSftVEmgxFs1OdhH+gHp/DmzL0pEZOaCaWgymHjpdo9u9iztg2nGso3VTk4syge1B8qpqwhX/7ZntfkX3OEmrpRbAdfExpozK7IGJglKX+X9bLknWJvNUrwm37Oorc/tuX/8KaB1z2serSqoAGhRI5kJNN1qmpidqLXuwjF6rJq89qDX9mwwvShhFkDEcY57ffnlOt6/bvi2ZzlCXNNsYSI6qDiXbMFXVMa2Bqg1/u8rWhX8z3mbke0qx7ju7MYa+bTuGI1n+mS1pHVWVzjS/zzG0geH5ht0fGi/HWE+pOzEMT9U9zzQlX9cMSTP0jnSmW5bUtTVf7xt9Ux+qLTE2x9ZVmv8CJ38A"
+    }
+  }
+}]]></FlowDocument.Tag>
+  <Section Margin="0,24" TextAlignment="Center">
+    <Paragraph FontSize="24" FontWeight="Bold" Margin="12,0">
+      <LineBreak />
+      <Span Foreground="Gray">Qt Visual Studio Tools</Span>
+    </Paragraph>
+    <Paragraph FontSize="42" Margin="12,0" FontWeight="Bold">
+      <Span TextDecorations="Underline">Project Format Conversion</Span>
+    </Paragraph>
+    <Paragraph Margin="12,8" FontSize="18">
+      <Span>Report generated on 2025-03-17 19:45:21</Span>
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Files</Span>
+    </Paragraph>
+    <Paragraph Margin="24,12,0,0">
+      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj]]></Span>
+      <LineBreak />
+      <Hyperlink NavigateUri="file://E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj?before">[Before]</Hyperlink>
+      <Hyperlink NavigateUri="file://E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj?after">[After]</Hyperlink>
+      <Hyperlink NavigateUri="file://E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj?diff&amp;before&amp;after">
+                        [Diff before/after]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj?diff&amp;before&amp;current">
+                        [Diff before/current]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj?diff&amp;after&amp;current">
+                        [Diff after/current]
+                    </Hyperlink>
+      <LineBreak />
+    </Paragraph>
+    <Paragraph Margin="24,12,0,0">
+      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj.filters]]></Span>
+      <LineBreak />
+      <Hyperlink NavigateUri="file://E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj.filters?before">[Before]</Hyperlink>
+      <Hyperlink NavigateUri="file://E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj.filters?after">[After]</Hyperlink>
+      <Hyperlink NavigateUri="file://E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj.filters?diff&amp;before&amp;after">
+                        [Diff before/after]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj.filters?diff&amp;before&amp;current">
+                        [Diff before/current]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj.filters?diff&amp;after&amp;current">
+                        [Diff after/current]
+                    </Hyperlink>
+      <LineBreak />
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Changes</Span>
+    </Paragraph>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Converting custom build steps to Qt/MSBuild items]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalIncludeDirectories>E:\src\GIT\cslol-manager\build\cslol-manager_autogen\include_Debug]]></Span><Span><![CDATA[;E:\src\GIT\cslol-manager\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;E:\src\GIT\cslol-manager\build\cslol-manager_autogen\include_Debug]]></Span><Span><![CDATA[;E:\src\GIT\cslol-manager\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalIncludeDirectories>E:\src\GIT\cslol-manager\build\cslol-manager_autogen\include_Release]]></Span><Span><![CDATA[;E:\src\GIT\cslol-manager\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;E:\src\GIT\cslol-manager\build\cslol-manager_autogen\include_Release]]></Span><Span><![CDATA[;E:\src\GIT\cslol-manager\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalIncludeDirectories>E:\src\GIT\cslol-manager\build\cslol-manager_autogen\include_MinSizeRel]]></Span><Span><![CDATA[;E:\src\GIT\cslol-manager\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;E:\src\GIT\cslol-manager\build\cslol-manager_autogen\include_MinSizeRel]]></Span><Span><![CDATA[;E:\src\GIT\cslol-manager\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalIncludeDirectories>E:\src\GIT\cslol-manager\build\cslol-manager_autogen\include_RelWithDebInfo]]></Span><Span><![CDATA[;E:\src\GIT\cslol-manager\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;E:\src\GIT\cslol-manager\build\cslol-manager_autogen\include_RelWithDebInfo]]></Span><Span><![CDATA[;E:\src\GIT\cslol-manager\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Enabling multi-processor compilation]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Project format version]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Keyword>QtVS_v304</Keyword>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Fallback for QTMSBUILD environment variable]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Default Qt properties]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt_defaults.props" Condition="Exists('$(QtMsBuild)\qt_defaults.props')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt build settings]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Warn if Qt/MSBuild is not found]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') OR !Exists('$(QtMsBuild)\Qt.props')">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  </Target>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt property sheet]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Relocate uncategorized property sheets]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[  <PropertyGroup>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <PreferredToolArchitecture>x64</PreferredToolArchitecture>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[  </PropertyGroup>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <PreferredToolArchitecture>x64</PreferredToolArchitecture>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  </PropertyGroup>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt targets]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[E:\src\GIT\cslol-manager\build\cslol-manager.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+  </Section>
+  <Section>
+    <Paragraph />
+  </Section>
+</FlowDocument>
+<!--BORqG0J6ml40X6+ujHXSIeW7qbcFPPjso2f4Fz4Z1qw=-->

@@ -21,7 +21,7 @@ endif()
 find_package(Threads REQUIRED)
 find_package(Git QUIET REQUIRED)
 
-add_custom_command(
+#[[add_custom_command(
     OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/CSLOLversion.cpp"
     COMMAND "${GIT_EXECUTABLE}"
             "-C" "${CMAKE_SOURCE_DIR}"
@@ -37,7 +37,20 @@ char const* CSLOL::DATE=\"%aI\";%n"
     DEPENDS "${CMAKE_SOURCE_DIR}/.git/index"
     VERBATIM
     )
-
+]]
+add_custom_command(
+    OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/CSLOLversion.cpp"
+    COMMAND "${GIT_EXECUTABLE}"
+            "-C" "${CMAKE_SOURCE_DIR}"
+            "log"
+            "-1"
+            "--output" "${CMAKE_CURRENT_BINARY_DIR}/CSLOLversion.cpp"
+            "--date=short"
+            "--format=#include <CSLOLVersion.h>%nchar const* CSLOL::VERSION=\"%ad-%h\";%nchar const* CSLOL::COMMIT=\"%H\";%nchar const* CSLOL::DATE=\"%aI\";"
+    DEPENDS "${CMAKE_SOURCE_DIR}/.git/index"
+    VERBATIM
+    COMMENT "Generating CSLOLversion.cpp from Git log"
+)
 if (WIN32)
     add_executable(cslol-manager WIN32
         src/main.cpp
@@ -83,6 +96,12 @@ target_sources(cslol-manager PRIVATE
     src/CSLOLUtils.cpp
     src/CSLOLVersion.h
     src/qml/qml.qrc
+)
+
+# 添加QML文件的监控
+file(GLOB_RECURSE QML_FILES "src/qml/*.qml")
+set_source_files_properties(${QML_FILES} PROPERTIES
+    QT_QML_IMPORT_PATH "${CMAKE_CURRENT_SOURCE_DIR}/src/qml"
 )
 
 set_target_properties(cslol-manager PROPERTIES AUTOUIC ON)

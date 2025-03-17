@@ -1,0 +1,30 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "hidden": true,
+      "name": "Qt",
+      "cacheVariables": {
+        "CMAKE_PREFIX_PATH": "$env{QTDIR}"
+      },
+      "vendor": {
+        "qt-project.org/Qt": {
+          "checksum": "wVa86FgEkvdCTVp1/nxvrkaemJc="
+        }
+      }
+    },
+    {
+      "name": "5.15.2_msvc2019_64",
+      "inherits": "Qt",
+      "cacheVariables": {
+        "CMAKE_GENERATOR": "Ninja",
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    }
+  ],
+  "vendor": {
+    "qt-project.org/Presets": {
+      "checksum": "OcQBoJs6/KlQN3f2AQfxPK6yDpk="
+    }
+  }
+}

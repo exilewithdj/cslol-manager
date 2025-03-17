@@ -35,6 +35,7 @@ int main(int argc, char *argv[]) {
     QSettings::setDefaultFormat(QSettings::Format::IniFormat);
 
     QQmlApplicationEngine engine;
+    engine.addImportPath("E:/qt/5.15.2/msvc2019_64/qml");
     engine.rootContext()->setContextProperty("CSLOLUtils", new CSLOLUtils(&engine));
     engine.rootContext()->setContextProperty("CSLOL_VERSION", CSLOL::VERSION);
     engine.rootContext()->setContextProperty("CSLOL_COMMIT", CSLOL::COMMIT);
@@ -51,6 +52,8 @@ int main(int argc, char *argv[]) {
             if (!obj && url == objUrl) QCoreApplication::exit(-1);
         },
         Qt::QueuedConnection);
+    //Æô¶¯qmlµ÷ÊÔ
+    qputenv("QML_DEBUGGER", "1");
     engine.load(url);
 
     return app.exec();

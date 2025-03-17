@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\src\GIT\cslol-manager\build\cslol-manager_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\build\CSLOLversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\src\CSLOLTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\src\CSLOLToolsImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\src\CSLOLUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\build\cslol-manager_autogen\VLDSMZLXNG\qrc_qml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\build\cslol-manager_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\build\cslol-manager_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\src\GIT\cslol-manager\build\cslol-manager_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\src\GIT\cslol-manager\src\CSLOLTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\src\CSLOLToolsImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\src\CSLOLUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\src\GIT\cslol-manager\src\CSLOLVersion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\src\GIT\cslol-manager\build\CMakeFiles\8774c6d9e163fe64a92522bf0e68ff4c\qrc_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\src\GIT\cslol-manager\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\src\GIT\cslol-manager\src\qml\qml.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\src\GIT\cslol-manager\src\res\rc.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C92B48D8-69F4-385E-911F-85611967E13F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CFD88959-7DA8-3011-A3DB-853E5CD58BF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5C14CC66-D435-3540-A477-283D4B5B64F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

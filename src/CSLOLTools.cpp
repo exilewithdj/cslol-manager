@@ -20,7 +20,11 @@ CSLOLTools::CSLOLTools(QObject *parent) : QObject(parent) {
     connect(worker_, &CSLOLToolsImpl::initialized, this, &CSLOLTools::initialized);
     connect(worker_, &CSLOLToolsImpl::modDeleted, this, &CSLOLTools::modDeleted);
     connect(worker_, &CSLOLToolsImpl::installedMod, this, &CSLOLTools::installedMod);
-    connect(worker_, &CSLOLToolsImpl::profileSaved, this, &CSLOLTools::profileSaved);
+    connect(worker_,//  发送者：CSLOLToolsImpl对象
+        &CSLOLToolsImpl::profileSaved,// 信号：CSLOLToolsImpl类中的profileSaved信号
+        this,// 接收者：当前对象（CSLOLTools）
+        &CSLOLTools::profileSaved// 槽函数：CSLOLTools类中的profileSaved槽函数
+    );
     connect(worker_, &CSLOLToolsImpl::profileLoaded, this, &CSLOLTools::profileLoaded);
     connect(worker_, &CSLOLToolsImpl::profileDeleted, this, &CSLOLTools::profileDeleted);
     connect(worker_, &CSLOLToolsImpl::modCreated, this, &CSLOLTools::modCreated);

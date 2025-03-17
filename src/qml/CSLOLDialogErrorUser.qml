@@ -1,3 +1,4 @@
+//用户错误提示对话框
 import QtQuick 2.15
 import QtQuick.Layouts 1.12
 import QtQuick.Controls 2.15

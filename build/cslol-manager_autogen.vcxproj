@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A4FC1F4C-CFB2-36DA-B736-D8E4A0BDB1DA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>cslol-manager_autogen</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\src\GIT\cslol-manager\build\CMakeFiles\ab2176d01bb08d43a4a1c670e8c2c540\CSLOLversion.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating CSLOLversion.cpp from Git log</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files\Git\cmd\git.exe" -C E:/src/GIT/cslol-manager log -1 --output E:/src/GIT/cslol-manager/build/CSLOLversion.cpp --date=short "--format=#include &lt;CSLOLVersion.h&gt;%%nchar const* CSLOL::VERSION=\"%%ad-%%h\"";"%%nchar const* CSLOL::COMMIT=\"%%H\"";"%%nchar const* CSLOL::DATE=\"%%aI\"";""
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\src\GIT\cslol-manager\.git\index;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\src\GIT\cslol-manager\build\CSLOLversion.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating CSLOLversion.cpp from Git log</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files\Git\cmd\git.exe" -C E:/src/GIT/cslol-manager log -1 --output E:/src/GIT/cslol-manager/build/CSLOLversion.cpp --date=short "--format=#include &lt;CSLOLVersion.h&gt;%%nchar const* CSLOL::VERSION=\"%%ad-%%h\"";"%%nchar const* CSLOL::COMMIT=\"%%H\"";"%%nchar const* CSLOL::DATE=\"%%aI\"";""
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\src\GIT\cslol-manager\.git\index;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\src\GIT\cslol-manager\build\CSLOLversion.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating CSLOLversion.cpp from Git log</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files\Git\cmd\git.exe" -C E:/src/GIT/cslol-manager log -1 --output E:/src/GIT/cslol-manager/build/CSLOLversion.cpp --date=short "--format=#include &lt;CSLOLVersion.h&gt;%%nchar const* CSLOL::VERSION=\"%%ad-%%h\"";"%%nchar const* CSLOL::COMMIT=\"%%H\"";"%%nchar const* CSLOL::DATE=\"%%aI\"";""
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\src\GIT\cslol-manager\.git\index;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\src\GIT\cslol-manager\build\CSLOLversion.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating CSLOLversion.cpp from Git log</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files\Git\cmd\git.exe" -C E:/src/GIT/cslol-manager log -1 --output E:/src/GIT/cslol-manager/build/CSLOLversion.cpp --date=short "--format=#include &lt;CSLOLVersion.h&gt;%%nchar const* CSLOL::VERSION=\"%%ad-%%h\"";"%%nchar const* CSLOL::COMMIT=\"%%H\"";"%%nchar const* CSLOL::DATE=\"%%aI\"";""
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\src\GIT\cslol-manager\.git\index;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\src\GIT\cslol-manager\build\CSLOLversion.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\src\GIT\cslol-manager\build\CMakeFiles\304ddbae4154b8d0c62653d3d0e0aef8\cslol-manager_autogen.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Automatic MOC and UIC for target cslol-manager</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd E:\src\GIT\cslol-manager\build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\cmake\bin\cmake.exe" -E cmake_autogen E:/src/GIT/cslol-manager/build/CMakeFiles/cslol-manager_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\src\GIT\cslol-manager\build\CSLOLversion.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\src\GIT\cslol-manager\build\CMakeFiles\cslol-manager_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Automatic MOC and UIC for target cslol-manager</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd E:\src\GIT\cslol-manager\build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\cmake\bin\cmake.exe" -E cmake_autogen E:/src/GIT/cslol-manager/build/CMakeFiles/cslol-manager_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\src\GIT\cslol-manager\build\CSLOLversion.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\src\GIT\cslol-manager\build\CMakeFiles\cslol-manager_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Automatic MOC and UIC for target cslol-manager</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd E:\src\GIT\cslol-manager\build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\cmake\bin\cmake.exe" -E cmake_autogen E:/src/GIT/cslol-manager/build/CMakeFiles/cslol-manager_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\src\GIT\cslol-manager\build\CSLOLversion.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\src\GIT\cslol-manager\build\CMakeFiles\cslol-manager_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Automatic MOC and UIC for target cslol-manager</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd E:\src\GIT\cslol-manager\build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"E:\Program Files\cmake\bin\cmake.exe" -E cmake_autogen E:/src/GIT/cslol-manager/build/CMakeFiles/cslol-manager_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\src\GIT\cslol-manager\build\CSLOLversion.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\src\GIT\cslol-manager\build\CMakeFiles\cslol-manager_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\src\GIT\cslol-manager\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/src/GIT/cslol-manager/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files\cmake\bin\cmake.exe" -SE:/src/GIT/cslol-manager -BE:/src/GIT/cslol-manager/build --check-stamp-file E:/src/GIT/cslol-manager/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeCInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeParseArguments.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CheckCSourceCompiles.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CheckIncludeFile.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CheckLibraryExists.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\FindGit.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\FindPackageMessage.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\FindThreads.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Linker\MSVC.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlImportScanner\Qt5QmlImportScannerConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5Quick_QSGD3D12Adaptation.cmake;E:\src\GIT\cslol-manager\build\CMakeFiles\4.0.0-rc4\CMakeCCompiler.cmake;E:\src\GIT\cslol-manager\build\CMakeFiles\4.0.0-rc4\CMakeCXXCompiler.cmake;E:\src\GIT\cslol-manager\build\CMakeFiles\4.0.0-rc4\CMakeRCCompiler.cmake;E:\src\GIT\cslol-manager\build\CMakeFiles\4.0.0-rc4\CMakeSystem.cmake;E:\src\GIT\cslol-manager\src\qml\qml.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\src\GIT\cslol-manager\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/src/GIT/cslol-manager/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files\cmake\bin\cmake.exe" -SE:/src/GIT/cslol-manager -BE:/src/GIT/cslol-manager/build --check-stamp-file E:/src/GIT/cslol-manager/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeCInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeParseArguments.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CheckCSourceCompiles.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CheckIncludeFile.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CheckLibraryExists.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\FindGit.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\FindPackageMessage.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\FindThreads.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Linker\MSVC.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlImportScanner\Qt5QmlImportScannerConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5Quick_QSGD3D12Adaptation.cmake;E:\src\GIT\cslol-manager\build\CMakeFiles\4.0.0-rc4\CMakeCCompiler.cmake;E:\src\GIT\cslol-manager\build\CMakeFiles\4.0.0-rc4\CMakeCXXCompiler.cmake;E:\src\GIT\cslol-manager\build\CMakeFiles\4.0.0-rc4\CMakeRCCompiler.cmake;E:\src\GIT\cslol-manager\build\CMakeFiles\4.0.0-rc4\CMakeSystem.cmake;E:\src\GIT\cslol-manager\src\qml\qml.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\src\GIT\cslol-manager\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/src/GIT/cslol-manager/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files\cmake\bin\cmake.exe" -SE:/src/GIT/cslol-manager -BE:/src/GIT/cslol-manager/build --check-stamp-file E:/src/GIT/cslol-manager/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeCInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeParseArguments.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CheckCSourceCompiles.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CheckIncludeFile.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CheckLibraryExists.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\FindGit.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\FindPackageMessage.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\FindThreads.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Linker\MSVC.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlImportScanner\Qt5QmlImportScannerConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5Quick_QSGD3D12Adaptation.cmake;E:\src\GIT\cslol-manager\build\CMakeFiles\4.0.0-rc4\CMakeCCompiler.cmake;E:\src\GIT\cslol-manager\build\CMakeFiles\4.0.0-rc4\CMakeCXXCompiler.cmake;E:\src\GIT\cslol-manager\build\CMakeFiles\4.0.0-rc4\CMakeRCCompiler.cmake;E:\src\GIT\cslol-manager\build\CMakeFiles\4.0.0-rc4\CMakeSystem.cmake;E:\src\GIT\cslol-manager\src\qml\qml.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\src\GIT\cslol-manager\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/src/GIT/cslol-manager/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files\cmake\bin\cmake.exe" -SE:/src/GIT/cslol-manager -BE:/src/GIT/cslol-manager/build --check-stamp-file E:/src/GIT/cslol-manager/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeCInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeParseArguments.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeRCInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CheckCSourceCompiles.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CheckIncludeFile.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\CheckLibraryExists.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Compiler\MSVC.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\FindGit.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\FindPackageMessage.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\FindThreads.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Linker\MSVC.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\Windows.cmake;E:\Program Files\cmake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5Config.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfigExtras.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QDebugMessageServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QLocalClientConnectionFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebugServerFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlDebuggerServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlInspectorServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugConnectorFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlNativeDebugServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlPreviewServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQmlProfilerServiceFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QQuickProfilerAdapterFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Qml\Qt5Qml_QTcpServerConnectionFactory.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlImportScanner\Qt5QmlImportScannerConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5QmlModels\Qt5QmlModelsConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;E:\qt\5.15.2\msvc2019_64\lib\cmake\Qt5Quick\Qt5Quick_QSGD3D12Adaptation.cmake;E:\src\GIT\cslol-manager\build\CMakeFiles\4.0.0-rc4\CMakeCCompiler.cmake;E:\src\GIT\cslol-manager\build\CMakeFiles\4.0.0-rc4\CMakeCXXCompiler.cmake;E:\src\GIT\cslol-manager\build\CMakeFiles\4.0.0-rc4\CMakeRCCompiler.cmake;E:\src\GIT\cslol-manager\build\CMakeFiles\4.0.0-rc4\CMakeSystem.cmake;E:\src\GIT\cslol-manager\src\qml\qml.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\src\GIT\cslol-manager\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\src\GIT\cslol-manager\build\CMakeFiles\cslol-manager_autogen">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="E:\src\GIT\cslol-manager\build\ZERO_CHECK.vcxproj">
+      <Project>{7260157D-D13A-379A-8BE2-B70972D30F35}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

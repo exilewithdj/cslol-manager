@@ -454,7 +454,9 @@ void CSLOLToolsImpl::saveProfile(QString name, QJsonObject mods, bool run, bool 
         }
         writeCurrentProfile(name);
         writeProfile(name, mods);
+        qDebug() << "Emitting profileSaved signal with name:" << name;
         emit profileSaved(name, mods);
+        qDebug() << "profileSaved signal emitted";
 
         setStatus("Write profile");
         runTool(

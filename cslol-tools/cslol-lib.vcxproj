@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F8EAD5BB-3FE1-3A24-90F4-7A6A9B2E3F82}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>cslol-lib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\src\GIT\cslol-manager\cslol-tools\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cslol-lib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cslol-lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\src\GIT\cslol-manager\cslol-tools\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cslol-lib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cslol-lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\src\GIT\cslol-manager\cslol-tools\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cslol-lib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cslol-lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\src\GIT\cslol-manager\cslol-tools\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cslol-lib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cslol-lib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\src\GIT\cslol-manager\cslol-tools\lib;E:\src\GIT\cslol-manager\_deps\fmt-src\include;E:\src\GIT\cslol-manager\_deps\fmtlog-src;E:\src\GIT\cslol-manager\_deps\libdeflate-src;E:\src\GIT\cslol-manager\cslol-tools\dep\zstd\lib;E:\src\GIT\cslol-manager\cslol-tools\dep\xxhash;E:\src\GIT\cslol-manager\cslol-tools\dep\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/src/GIT/cslol-manager/_deps/cslol-patcher-src"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;ZSTD_STATIC_LINKING_ONLY;XXH_STATIC_LINKING_ONLY;MINIZ_STATIC_DEFINE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;ZSTD_STATIC_LINKING_ONLY;XXH_STATIC_LINKING_ONLY;MINIZ_STATIC_DEFINE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\src\GIT\cslol-manager\cslol-tools\lib;E:\src\GIT\cslol-manager\_deps\fmt-src\include;E:\src\GIT\cslol-manager\_deps\fmtlog-src;E:\src\GIT\cslol-manager\_deps\libdeflate-src;E:\src\GIT\cslol-manager\cslol-tools\dep\zstd\lib;E:\src\GIT\cslol-manager\cslol-tools\dep\xxhash;E:\src\GIT\cslol-manager\cslol-tools\dep\miniz;E:\src\GIT\cslol-manager\_deps\cslol-patcher-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\src\GIT\cslol-manager\cslol-tools\lib;E:\src\GIT\cslol-manager\_deps\fmt-src\include;E:\src\GIT\cslol-manager\_deps\fmtlog-src;E:\src\GIT\cslol-manager\_deps\libdeflate-src;E:\src\GIT\cslol-manager\cslol-tools\dep\zstd\lib;E:\src\GIT\cslol-manager\cslol-tools\dep\xxhash;E:\src\GIT\cslol-manager\cslol-tools\dep\miniz;E:\src\GIT\cslol-manager\_deps\cslol-patcher-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\src\GIT\cslol-manager\cslol-tools\lib;E:\src\GIT\cslol-manager\_deps\fmt-src\include;E:\src\GIT\cslol-manager\_deps\fmtlog-src;E:\src\GIT\cslol-manager\_deps\libdeflate-src;E:\src\GIT\cslol-manager\cslol-tools\dep\zstd\lib;E:\src\GIT\cslol-manager\cslol-tools\dep\xxhash;E:\src\GIT\cslol-manager\cslol-tools\dep\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/src/GIT/cslol-manager/_deps/cslol-patcher-src"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ZSTD_STATIC_LINKING_ONLY;XXH_STATIC_LINKING_ONLY;MINIZ_STATIC_DEFINE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ZSTD_STATIC_LINKING_ONLY;XXH_STATIC_LINKING_ONLY;MINIZ_STATIC_DEFINE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\src\GIT\cslol-manager\cslol-tools\lib;E:\src\GIT\cslol-manager\_deps\fmt-src\include;E:\src\GIT\cslol-manager\_deps\fmtlog-src;E:\src\GIT\cslol-manager\_deps\libdeflate-src;E:\src\GIT\cslol-manager\cslol-tools\dep\zstd\lib;E:\src\GIT\cslol-manager\cslol-tools\dep\xxhash;E:\src\GIT\cslol-manager\cslol-tools\dep\miniz;E:\src\GIT\cslol-manager\_deps\cslol-patcher-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\src\GIT\cslol-manager\cslol-tools\lib;E:\src\GIT\cslol-manager\_deps\fmt-src\include;E:\src\GIT\cslol-manager\_deps\fmtlog-src;E:\src\GIT\cslol-manager\_deps\libdeflate-src;E:\src\GIT\cslol-manager\cslol-tools\dep\zstd\lib;E:\src\GIT\cslol-manager\cslol-tools\dep\xxhash;E:\src\GIT\cslol-manager\cslol-tools\dep\miniz;E:\src\GIT\cslol-manager\_deps\cslol-patcher-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\src\GIT\cslol-manager\cslol-tools\lib;E:\src\GIT\cslol-manager\_deps\fmt-src\include;E:\src\GIT\cslol-manager\_deps\fmtlog-src;E:\src\GIT\cslol-manager\_deps\libdeflate-src;E:\src\GIT\cslol-manager\cslol-tools\dep\zstd\lib;E:\src\GIT\cslol-manager\cslol-tools\dep\xxhash;E:\src\GIT\cslol-manager\cslol-tools\dep\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/src/GIT/cslol-manager/_deps/cslol-patcher-src"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ZSTD_STATIC_LINKING_ONLY;XXH_STATIC_LINKING_ONLY;MINIZ_STATIC_DEFINE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ZSTD_STATIC_LINKING_ONLY;XXH_STATIC_LINKING_ONLY;MINIZ_STATIC_DEFINE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\src\GIT\cslol-manager\cslol-tools\lib;E:\src\GIT\cslol-manager\_deps\fmt-src\include;E:\src\GIT\cslol-manager\_deps\fmtlog-src;E:\src\GIT\cslol-manager\_deps\libdeflate-src;E:\src\GIT\cslol-manager\cslol-tools\dep\zstd\lib;E:\src\GIT\cslol-manager\cslol-tools\dep\xxhash;E:\src\GIT\cslol-manager\cslol-tools\dep\miniz;E:\src\GIT\cslol-manager\_deps\cslol-patcher-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\src\GIT\cslol-manager\cslol-tools\lib;E:\src\GIT\cslol-manager\_deps\fmt-src\include;E:\src\GIT\cslol-manager\_deps\fmtlog-src;E:\src\GIT\cslol-manager\_deps\libdeflate-src;E:\src\GIT\cslol-manager\cslol-tools\dep\zstd\lib;E:\src\GIT\cslol-manager\cslol-tools\dep\xxhash;E:\src\GIT\cslol-manager\cslol-tools\dep\miniz;E:\src\GIT\cslol-manager\_deps\cslol-patcher-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\src\GIT\cslol-manager\cslol-tools\lib;E:\src\GIT\cslol-manager\_deps\fmt-src\include;E:\src\GIT\cslol-manager\_deps\fmtlog-src;E:\src\GIT\cslol-manager\_deps\libdeflate-src;E:\src\GIT\cslol-manager\cslol-tools\dep\zstd\lib;E:\src\GIT\cslol-manager\cslol-tools\dep\xxhash;E:\src\GIT\cslol-manager\cslol-tools\dep\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/src/GIT/cslol-manager/_deps/cslol-patcher-src"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ZSTD_STATIC_LINKING_ONLY;XXH_STATIC_LINKING_ONLY;MINIZ_STATIC_DEFINE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ZSTD_STATIC_LINKING_ONLY;XXH_STATIC_LINKING_ONLY;MINIZ_STATIC_DEFINE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\src\GIT\cslol-manager\cslol-tools\lib;E:\src\GIT\cslol-manager\_deps\fmt-src\include;E:\src\GIT\cslol-manager\_deps\fmtlog-src;E:\src\GIT\cslol-manager\_deps\libdeflate-src;E:\src\GIT\cslol-manager\cslol-tools\dep\zstd\lib;E:\src\GIT\cslol-manager\cslol-tools\dep\xxhash;E:\src\GIT\cslol-manager\cslol-tools\dep\miniz;E:\src\GIT\cslol-manager\_deps\cslol-patcher-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\src\GIT\cslol-manager\cslol-tools\lib;E:\src\GIT\cslol-manager\_deps\fmt-src\include;E:\src\GIT\cslol-manager\_deps\fmtlog-src;E:\src\GIT\cslol-manager\_deps\libdeflate-src;E:\src\GIT\cslol-manager\cslol-tools\dep\zstd\lib;E:\src\GIT\cslol-manager\cslol-tools\dep\xxhash;E:\src\GIT\cslol-manager\cslol-tools\dep\miniz;E:\src\GIT\cslol-manager\_deps\cslol-patcher-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\src\GIT\cslol-manager\cslol-tools\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/src/GIT/cslol-manager/cslol-tools/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files\cmake\bin\cmake.exe" -SE:/src/GIT/cslol-manager -BE:/src/GIT/cslol-manager --check-stamp-file E:/src/GIT/cslol-manager/cslol-tools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Program Files\cmake\share\cmake-4.0\Modules\FetchContent\CMakeLists.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\src\GIT\cslol-manager\cslol-tools\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/src/GIT/cslol-manager/cslol-tools/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files\cmake\bin\cmake.exe" -SE:/src/GIT/cslol-manager -BE:/src/GIT/cslol-manager --check-stamp-file E:/src/GIT/cslol-manager/cslol-tools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Program Files\cmake\share\cmake-4.0\Modules\FetchContent\CMakeLists.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\src\GIT\cslol-manager\cslol-tools\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/src/GIT/cslol-manager/cslol-tools/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files\cmake\bin\cmake.exe" -SE:/src/GIT/cslol-manager -BE:/src/GIT/cslol-manager --check-stamp-file E:/src/GIT/cslol-manager/cslol-tools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Program Files\cmake\share\cmake-4.0\Modules\FetchContent\CMakeLists.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\src\GIT\cslol-manager\cslol-tools\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/src/GIT/cslol-manager/cslol-tools/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files\cmake\bin\cmake.exe" -SE:/src/GIT/cslol-manager -BE:/src/GIT/cslol-manager --check-stamp-file E:/src/GIT/cslol-manager/cslol-tools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Program Files\cmake\share\cmake-4.0\Modules\FetchContent\CMakeLists.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\src\GIT\cslol-manager\cslol-tools\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\common.cpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\common.hpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\error.cpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\error.hpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\fs.cpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\fs.hpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\log.hpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\log.cpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\hash\dict.cpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\hash\dict.hpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\hash\fnv1a32.cpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\hash\fnv1a32.hpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\hash\xxh64.cpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\hash\xxh64.hpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\io\buffer.hpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\io\buffer.cpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\io\bytes.cpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\io\bytes.hpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\io\file.cpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\io\file.hpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\io\sys.cpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\io\sys.hpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\patcher\patcher.hpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\patcher\patcher_dummy.cpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\patcher\patcher_macos.cpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\patcher\patcher_win32.cpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\patcher\utility\delay.hpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\patcher\utility\macho.hpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\patcher\utility\process.hpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\patcher\utility\process_macos.cpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\utility\cli.hpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\utility\cli.cpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\utility\magic.cpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\utility\magic.hpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\utility\zip.cpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\utility\zip.hpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\archive.cpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\archive.hpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\mounted.hpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\mounted.cpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\entry.cpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\entry.hpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\index.cpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\index.hpp" />
+    <ClCompile Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\toc.cpp" />
+    <ClInclude Include="E:\src\GIT\cslol-manager\cslol-tools\lib\lol\wad\toc.hpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="E:\src\GIT\cslol-manager\ZERO_CHECK.vcxproj">
+      <Project>{6C4C35FC-D03B-3948-9883-52BEC2245AFB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\src\GIT\cslol-manager\cslol-tools\dep\fmt.vcxproj">
+      <Project>{02049C24-BD50-314A-9F18-0C0792CCCECD}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\src\GIT\cslol-manager\cslol-tools\dep\libdeflate.vcxproj">
+      <Project>{A27B5BCD-3B75-3868-8478-ADDBAB7E6793}</Project>
+      <Name>libdeflate</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\src\GIT\cslol-manager\cslol-tools\dep\miniz\miniz.vcxproj">
+      <Project>{3A11D39A-0EAE-3B51-9D26-97B0C0ACD1BE}</Project>
+      <Name>miniz</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\src\GIT\cslol-manager\cslol-tools\dep\xxhash.vcxproj">
+      <Project>{41385A5F-0284-32B6-92D2-DC67613DFC42}</Project>
+      <Name>xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\src\GIT\cslol-manager\cslol-tools\dep\zstd.vcxproj">
+      <Project>{F5A4DF58-7B4A-30F6-A161-0327F00515AE}</Project>
+      <Name>zstd</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,3 +1,4 @@
+//皮肤列表视图组件
 import QtQuick 2.15
 import QtQuick.Layouts 1.12
 import QtQuick.Controls 2.15
