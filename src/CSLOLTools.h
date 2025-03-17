@@ -23,6 +23,16 @@ class CSLOLTools : public QObject {
 public:
     using CSLOLState = CSLOLToolsImpl::CSLOLState;
     explicit CSLOLTools(QObject* parent = nullptr);
+    // 使用explicit的好处：
+    //     防止意外的类型转换
+    //     使代码意图更明确
+    //     避免潜在的bug
+    //     提高代码的安全性
+    // 在这个具体场景中：
+    //     CSLOLTools是一个重要的Qt组件
+    //     它不应该被意外地从QObject*隐式转换
+    //     构造CSLOLTools对象应该是一个明确的意图
+    //     使用explicit可以防止程序员误用
     ~CSLOLTools();
 
 signals:

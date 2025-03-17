@@ -323,7 +323,7 @@ ApplicationWindow {
         id: cslolDialogUpdate
         enableUpdates: settings.enableUpdates
     }
-
+    // 相当于c++中的 CSLOLTools cslolTools（在main函数中定义的（主线程），生命周期很长的）
     CSLOLTools {
         id: cslolTools
         onInitialized: function(mods, profiles, profileName, profileMods) {
